@@ -30,7 +30,7 @@ bot.on("message", async message => {
 
     if (message.author.bot) return;
 
-    if (message.content.startsWith("!clear")) {
+    if (message.content.startsWith("/clear")) {
         // message.delete();
         if (message.member.hasPermission('MANAGE_MESSAGES')) {
 
